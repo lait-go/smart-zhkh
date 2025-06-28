@@ -1,0 +1,3 @@
+docker exec -it keycloak-db-1 psql -U lait -d db    - подключение к бд с терминала(пароль 123)
+
+"postgres://lait:123@localhost:5432/db?sslmode=disable"  - для подключение на go

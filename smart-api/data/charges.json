@@ -1,1 +1,10 @@
-[{"id":1,"user_id":0,"amount":20000,"date":"2003-03-20","category":"fgdgfdgdfgfd"}]
+[
+  {
+    "id": 1,
+    "user_id": "1f600ca5-06d8-43b4-b111-c612b8da5943",
+    "amount": 1000,
+    "date": "2025-06-17",
+    "category": "Электричество",
+    "paid": false
+  }
+]

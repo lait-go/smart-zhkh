@@ -15,4 +15,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    host: '0.0.0.0', // Для доступа снаружи контейнера
+    port: 3000,      // По умолчанию порт 3000
+  }
 })
+
